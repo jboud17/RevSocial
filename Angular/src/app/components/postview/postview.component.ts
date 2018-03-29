@@ -123,33 +123,7 @@ export class PostviewComponent implements OnInit {
 
         },
         err => {
-          
-          var id = "likes-count-"+postId;
-          var html = document.getElementById(id).innerHTML;
-          var countLikes = parseInt(html);
-          countLikes++;
-          var str = String(countLikes);
-          document.getElementById(id).textContent = str;
-
-            //like icon animation
-            var iconId = "thumb-up-"+postId;
-            var el = document.getElementById(iconId);   
-            var padding = 5;
-            var interval = setInterval(iconAnimation, 100);
-            var count = 0;
-
-          function iconAnimation() {
-            count++;
-            if (count < 5) {
-              padding += .5; 
-              el.style.padding = padding + 'px';
-            } else if (count < 9) {
-              padding -= .5; 
-              el.style.padding = padding + 'px';
-            } else {
-              clearInterval(interval);
-            }
-          } 
+          alert("Error sending like post request");
         }
       );
       

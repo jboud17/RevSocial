@@ -15,6 +15,6 @@ public interface PostLikeRepo extends CrudRepository<PostLikes,Integer>{
     @Query(value="SELECT * FROM post_likes WHERE post_id = :pId AND user_id = :uId", nativeQuery=true)
     List<PostLikes> checkExistingLike(@Param("pId") int pId, @Param("uId") int uId);
     
-	@Query(value="INSERT into post_likes values (:pid, :uid)", nativeQuery=true)
-    List<Object> insertPostLike(@Param("pid") int pid, @Param("uid") int uid);
+//	@Query(value="INSERT into post_likes values (:pid, :uid)", nativeQuery=true)
+//    List<Object> insertPostLike(@Param("pid") int pid, @Param("uid") int uid);
 }
