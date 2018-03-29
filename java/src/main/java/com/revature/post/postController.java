@@ -1,18 +1,13 @@
 package com.revature.post;
 
 import java.io.IOException;
-import java.util.List;
 import java.math.BigDecimal;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileItemFactory;
-import org.apache.commons.fileupload.FileUploadException;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,10 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.revature.config.FrontController;
 import com.revature.config.S3Bucket;
 import com.revature.postLike.PostLikeService;
-import com.revature.postLike.PostLikes;
 import com.revature.user.UserNew;
 import com.revature.user.userService;
 
@@ -55,7 +50,7 @@ public class postController {
         List<Post> allPosts = PostService.getAllPosts();
         List<Object> postLikes = postLikeService.getPostLikes();
 
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();	//dont write user passwords
         String json = gson.toJson(allPosts);
         String split[] = json.split("}}");
         int noLikes = 0;

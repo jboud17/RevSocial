@@ -9,6 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.google.gson.annotations.Expose;
 import com.revature.user.UserNew;
 
 @Entity
@@ -18,19 +19,24 @@ public class Post {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="POST_ID")
+	@Expose
 	private int postId;
 	
 	@Column(name="IMG_HASH")
+	@Expose
 	private String hash;
 	
 	@Column(name="POST_TEXT")
+	@Expose
 	private String post_text;	// what is the text of the post
 	
 	@Column(name="TITLE")
+	@Expose
 	private String title;
 	
 	@ManyToOne
     @JoinColumn(name="USER_ID", referencedColumnName="USER_ID")
+	@Expose
 	private UserNew user;
 
 	public Post() {
