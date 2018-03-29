@@ -21,13 +21,13 @@ mvn install:install-file -Dfile={Path/to/your/ojdbc8.jar} -DgroupId=com.oracle -
 8. Run using "ng serve"
 
 ## Default values to use
-- User (id 2):
+- User (id 3):
 	- username: joe
 	- password: @@
 	- name: Sam Mendez
 	- email: sammymendino@gmail.com
 	- email password (if you want to check that emails are sent): 3mailpass
-- User (id 21):
+- User (id 5):
 	- username: jim
 	- password: @!
 	- name: Jim Jam
