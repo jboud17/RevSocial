@@ -114,16 +114,14 @@ p {
 {
     margin-right: 5px;
 }
-
 .body-panel
 {
     overflow-y: scroll;
     height: 300px;
 }
-
 .post-title {
     margin-bottom: 0px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
 }
 .panel-body {
@@ -136,15 +134,12 @@ p {
 .col-padding {
     padding: 0;
 }
-.btn-like {
-    font-size: 14px;
-    margin-right: 8px;
-}
 .fa-thumbs-up {
     padding: 5px;
     background-color: green;
     border-radius: 16px;
     color: white;
+    font-size: 12px;
 }
 .fa-thumbs-up:hover {
     cursor: default !important;
@@ -158,4 +153,21 @@ p {
     font-weight: 500;
     position: relative;
     top: 1px;
+}
+.btn-like {
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    background: transparent;
+    margin-right: 14px;
+    position: relative;
+    top: 4px;
+    color: darkgrey;
+}
+.btn-like:hover {
+    color: green;
+}
+.active-like {
+    color: green;
+    font-weight: 500;
 }

@@ -21,8 +21,8 @@ import com.revature.post.postService;
 public class S3Bucket {
 	@Autowired
 	private postService PostService = new postService();
-	private static final String bucketName = "rev-grouptwo";
-	private static final BasicAWSCredentials creds = new BasicAWSCredentials("AKIAIFJR6G367GAT5EEA", "FRpmPHfDAVA/sZaNK6iP3kya+SzhWOS2bEN4MhH6");
+	private static final String bucketName = "revsocial";
+	private static final BasicAWSCredentials creds = new BasicAWSCredentials("AKIAJ63EGE5ZHYBU6L5Q", "+RMt0dF8nKGKKFYlR283jU5//+iJk/fgeroF8Dla");
 	private static final AmazonS3 s3 = AmazonS3Client
 					.builder()
 					.withRegion("us-east-1")

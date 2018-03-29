@@ -3,6 +3,7 @@ package com.revature.post;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,6 +24,7 @@ import com.google.gson.GsonBuilder;
 import com.revature.config.FrontController;
 import com.revature.config.S3Bucket;
 import com.revature.postLike.PostLikeService;
+import com.revature.postLike.PostLikes;
 import com.revature.user.UserNew;
 import com.revature.user.userService;
 
@@ -47,8 +49,13 @@ public class postController {
 	public String getPost(HttpServletRequest req, HttpServletResponse resp) {
 
         FrontController.addHeader(resp);
+        HttpSession session = req.getSession();
+        
+        int userId = (Integer) session.getAttribute("uid");
+        
         List<Post> allPosts = PostService.getAllPosts();
         List<Object> postLikes = postLikeService.getPostLikes();
+        List<PostLikes> allPL = postLikeService.getLikesByUserId(userId);
 
         Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();	//dont write user passwords
         String json = gson.toJson(allPosts);
@@ -59,6 +66,7 @@ public class postController {
         for(int i=0; i<allPosts.size(); i++) {
             Post p = allPosts.get(i);
             boolean hasLikes = false;
+            boolean userLikedPost = false;
             for(int j=0; j<postLikes.size(); j++) {
 
                 Object row = postLikes.get(j);
@@ -68,20 +76,34 @@ public class postController {
                 Integer totalLikes = ((BigDecimal) r[1]).intValue();
 
                 if(p.getPost_id() == postId) {
-                    returnJSON += split[i] + "}," + "\"post_likes\":\"" + totalLikes + "\"}";
+                    returnJSON += split[i] + "}," + "\"post_likes\":\"" + totalLikes + "\",";
                     hasLikes = true;
                     break;
                 } 
             }
-
+            
             if(!hasLikes) {
-                returnJSON += split[i] + "}," + "\"post_likes\":\"" + noLikes + "\"}";
+                returnJSON += split[i] + "}," + "\"post_likes\":\"" + noLikes + "\",";
+            }
+            
+            for(int z=0; z<allPL.size(); z++) {
+            		int userLikedPostId = allPL.get(z).getPost_id();
+	        		if(userLikedPostId == p.getPost_id()) {
+	        			returnJSON += "\"liked\" : \"active-like\"}";
+	        			userLikedPost = true;
+	        			break;
+	        		}
+	        }
+            
+            if(!userLikedPost) {
+            		returnJSON += "\"liked\" : \"\"}";
             }
 
             if(allPosts.size()-i == 1) {
                 returnJSON += "]";
             }
         }
+        
         return returnJSON;
     }
 	

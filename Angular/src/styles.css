@@ -2,3 +2,11 @@
 body {
     background-color: #E9EBEE;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0px;
+}
+@media(min-width:1000px) {
+    .navbar-header {
+        float: right;
+    }
+}

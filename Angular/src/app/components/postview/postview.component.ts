@@ -20,7 +20,7 @@ export class PostviewComponent implements OnInit {
   private viewedUser;
   private postsToDisplay: any[] = [];
   private postUrl: string = 'http://localhost:8080/SocialMedia/likePost';
-  public s3: string = "https://s3.amazonaws.com/rev-grouptwo/images/";
+  public s3: string = "https://s3.amazonaws.com/revsocial/images/";
   public path: string = location.pathname;
   public u: User = null;
   private allUsers: any;
@@ -104,8 +104,11 @@ export class PostviewComponent implements OnInit {
             var iconId = "thumb-up-"+postId;
             var el = document.getElementById(iconId);   
             var padding = 5;
-            var interval = setInterval(iconAnimation, 100);
+            var interval = setInterval(iconAnimation, 50);
             var count = 0;
+
+            //add styling to like text
+            document.getElementById("like-span-"+postId).setAttribute("style", "color: green; font-weight: 500;")
           }
             
           function iconAnimation() {

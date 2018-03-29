@@ -1,6 +1,7 @@
 package com.revature.postLike;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -31,4 +32,11 @@ public class PostLikeService {
         List<Object> list = (List<Object>) postLikeRepo.getPostLikes();
         return list;
     }
+    
+    public List<PostLikes> getLikesByUserId(int id) {
+    		List<PostLikes> list = postLikeRepo.getLikesByUserId(id);
+    		return list;
+    }
+    
+    
 }
