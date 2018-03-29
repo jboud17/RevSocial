@@ -18,7 +18,7 @@ public class Post {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="POST_ID")
-	private int post_id;
+	private int postId;
 	
 	@Column(name="IMG_HASH")
 	private String hash;
@@ -53,11 +53,11 @@ public class Post {
 	}
 
 	public int getPost_id() {
-		return post_id;
+		return postId;
 	}
 
 	public void setPost_id(int post_id) {
-		this.post_id = post_id;
+		this.postId = post_id;
 	}
 
 	public String getHash() {
