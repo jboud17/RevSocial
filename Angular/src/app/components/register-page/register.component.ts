@@ -11,7 +11,8 @@ export class RegisterComponent implements OnInit {
   constructor(private title: Title) { }
 
   ngOnInit() {
-    this.title.setTitle("New user")
+    this.title.setTitle("New user");
+    document.body.style.background = "url(https://i.imgur.com/3AhbJw4.jpg)";
   }
 
 }

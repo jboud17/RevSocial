@@ -1,14 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* .container {
-    padding: 20px;
-    
-} */
-hr {
-    margin-top: 25px !important;
-    margin-bottom: 25px !important;
-    border: 0 !important;
-    border-top: 1px solid darkgreen !important;
-}
 body {
     background-color: #E9EBEE;
 }

@@ -12,5 +12,6 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
     this.title.setTitle('Login Page');
+    document.body.style.background = "url(https://i.imgur.com/3AhbJw4.jpg)";
   }
 }
