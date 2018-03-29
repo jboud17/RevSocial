@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018-03-29 18:56:53 - Returning cached instance of singleton bean 'autoConfigurationReport'
 2018-03-29 18:56:53 - Registering bean definition for @Bean method org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartConfiguration.classPathFileSystemWatcher()
 2018-03-29 18:56:53 - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
@@ -11414,3 +11415,7 @@ UNSIGNED-PAYLOAD"
 2018-03-29 19:57:43 - Closing JPA EntityManager
 2018-03-29 19:57:43 - Successfully completed request
 2018-03-29 19:57:43 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+=======
+2018-03-29 19:51:08 - null logged out
+2018-03-29 19:51:13 - Sucessfully logged in as joe
+>>>>>>> 3b244d98c1ff7b8decccc3071ef495c136d2574e
