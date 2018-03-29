@@ -50,7 +50,7 @@ mvn install:install-file -Dfile={Path/to/your/ojdbc8.jar} -DgroupId=com.oracle -
 #### All of the pages below will display this header:
 - Header: 
 	- On any page other than a specific user's profile page, displays logged-in user's profile pic and name
-	- On specific user's profile page
+	- On specific user's profile page, displays the viewed user's profile pic and name
 	- Left and middle buttons change based on which page the user views
 		- On Home Page: left takes you to Base profile page, right takes you to Update info page
 		- On either Profile Page: left takes you to home Page, right takes you to Update info page
