@@ -18,7 +18,7 @@ export class ProfileHeaderComponent implements OnInit {
   private textBoxPlaceholder: string = 'Loading...';
   private viewedUser = {};
   private hash: string;
-  private s3: string = "https://s3.amazonaws.com/rev-grouptwo/images/";
+  private s3: string = "https://s3.amazonaws.com/revsocial/images/";
   private nameOfUser: string = ""; 
 
   constructor(private client: HttpClient, private currUser: CurrentUserService, private allUsersService: AllUsersService) { 

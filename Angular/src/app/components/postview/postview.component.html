@@ -17,21 +17,17 @@
                 <p>{{ p.post_text }}</p>
             </div>
             <div class="panel-footer clearfix">
-                <div>
+                <div style="margin-bottom: 3px">
                     <span class="likes-span">
                         <span [id]="'thumb-up-'+p.postId" class="fa fa-thumbs-up"></span>
                         <span [id]="'likes-count-'+p.postId" class="likes-count">
                             {{ p.post_likes }}
                         </span>
                     </span>
-                    <button (click)="likeBtnClick(p.postId, this.currUser.getCurrentUser().id)" class="btn btn-success btn-sm btn-hover btn-like pull-left">
-                        Like
+                    <button (click)="likeBtnClick(p.postId, this.currUser.getCurrentUser().id)" class="btn-like pull-left">
+                        <span [id]="'like-span-'+p.postId" [class]="p.liked">Like</span>
                     </button>
                 </div>
-                <!-- add commenting functionality if we have time? -->
-                <!-- <a class="btn comsys btn-danger btn-sm btn-hover pull-left" style="margin-left: 5px;">Cmt
-                    <span class="fa fa-comment"></span>
-                </a> -->
             </div>
         </div>
     </div>
