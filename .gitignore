@@ -1,0 +1,8 @@
+/*
+/*/
+!.gitignore
+!/Angular/
+!/Angular/*
+!/java/
+!/java/*
+!readme.md
