@@ -29,8 +29,8 @@ public class postService {
 	
 	public List<Post> getAllPosts() {
 		List<Post> posts = new ArrayList<>();
-		PostRepo.findAll()
-		.forEach(posts::add);
+		Iterable<Post> allPosts = PostRepo.findAll();
+		allPosts.iterator().forEachRemaining(posts::add);	//inserts them in opposite order
 		return posts;
 	}
 	
