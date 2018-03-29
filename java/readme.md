@@ -10,9 +10,9 @@
 	- A hash string value to later be used for retrieving the image from the S3 
 	- His/Her post's text, title and user id
 		
-- PostLikes is a lookup table having 2 columns
+- PostLikes is a lookup table having 3 columns
 	- Every time a post is liked by some user, an entry is inserted to the table
-	- This entry includes the user id and post id
+	- This entry includes a unique postLikeId, the user id, and post id
 
 
 ## Backend
