@@ -19,12 +19,12 @@
             <div class="panel-footer clearfix">
                 <div>
                     <span class="likes-span">
-                        <span [id]="'thumb-up-'+p.post_id" class="fa fa-thumbs-up"></span>
-                        <span [id]="'likes-count-'+p.post_id" class="likes-count">
+                        <span [id]="'thumb-up-'+p.postId" class="fa fa-thumbs-up"></span>
+                        <span [id]="'likes-count-'+p.postId" class="likes-count">
                             {{ p.post_likes }}
                         </span>
                     </span>
-                    <button (click)="likeBtnClick(p.post_id, this.currUser.getCurrentUser().id)" class="btn btn-success btn-sm btn-hover btn-like pull-left">
+                    <button (click)="likeBtnClick(p.postId, this.currUser.getCurrentUser().id)" class="btn btn-success btn-sm btn-hover btn-like pull-left">
                         Like
                     </button>
                 </div>

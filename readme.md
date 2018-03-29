@@ -21,13 +21,13 @@ mvn install:install-file -Dfile={Path/to/your/ojdbc8.jar} -DgroupId=com.oracle -
 8. Run using "ng serve"
 
 ## Default values to use
-- User (id 2):
+- User (id 3):
 	- username: joe
 	- password: @@
 	- name: Sam Mendez
 	- email: sammymendino@gmail.com
 	- email password (if you want to check that emails are sent): 3mailpass
-- User (id 21):
+- User (id 5):
 	- username: jim
 	- password: @!
 	- name: Jim Jam
@@ -50,7 +50,7 @@ mvn install:install-file -Dfile={Path/to/your/ojdbc8.jar} -DgroupId=com.oracle -
 #### All of the pages below will display this header:
 - Header: 
 	- On any page other than a specific user's profile page, displays logged-in user's profile pic and name
-	- On specific user's profile page
+	- On specific user's profile page, displays the viewed user's profile pic and name
 	- Left and middle buttons change based on which page the user views
 		- On Home Page: left takes you to Base profile page, right takes you to Update info page
 		- On either Profile Page: left takes you to home Page, right takes you to Update info page

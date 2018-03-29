@@ -2,9 +2,9 @@ package com.revature.post;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.revature.user.UserNew;
@@ -29,8 +29,8 @@ public class postService {
 	
 	public List<Post> getAllPosts() {
 		List<Post> posts = new ArrayList<>();
-		PostRepo.findAll()
-		.forEach(posts::add);
+		Iterable<Post> allPosts = PostRepo.findAll(new Sort(Sort.Direction.DESC, "postId"));
+		allPosts.iterator().forEachRemaining(posts::add);	//inserts them in opposite order
 		return posts;
 	}
 	

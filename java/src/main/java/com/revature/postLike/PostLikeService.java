@@ -1,10 +1,13 @@
 package com.revature.postLike;
 
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
@@ -17,10 +20,7 @@ public class PostLikeService {
 
         List<PostLikes> pl = postLikeRepo.checkExistingLike(postId, userId);
         if(pl.isEmpty()) {
-            PostLikes postA = new PostLikes();
-            postA.setPost_id(postId);
-            postA.setUser_id(userId);
-            postLikeRepo.save(postA);
+            postLikeRepo.insertPostLike(postId, userId);
         } else {
             return false;
         }
