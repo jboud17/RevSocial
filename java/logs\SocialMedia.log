@@ -10988,3 +10988,429 @@ UNSIGNED-PAYLOAD"
 2018-03-29 19:41:25 - Closing connections idle longer than 60000 MILLISECONDS
 2018-03-29 19:42:25 - Closing connections idle longer than 60000 MILLISECONDS
 2018-03-29 19:42:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:43:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:43:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:44:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:44:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:45:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:45:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:46:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:46:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:46:36 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:46:36 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:46:36 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:46:36 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:46:36 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:46:36 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:46:36 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:46:36 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:46:36 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:46:36 - Closing JPA EntityManager
+2018-03-29 19:46:36 - Successfully completed request
+2018-03-29 19:46:36 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:46:41 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:46:41 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:46:41 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:46:41 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:46:41 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:46:41 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:46:41 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:46:41 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:46:41 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:46:41 - Closing JPA EntityManager
+2018-03-29 19:46:41 - Successfully completed request
+2018-03-29 19:46:41 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:47:03 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:47:03 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:47:03 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:47:03 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:47:03 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:47:03 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:47:03 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:47:03 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:47:03 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:47:03 - Closing JPA EntityManager
+2018-03-29 19:47:03 - Successfully completed request
+2018-03-29 19:47:03 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:47:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:47:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:48:17 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:17 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:48:17 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:48:17 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:48:17 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:48:17 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:48:17 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:48:17 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Closing JPA EntityManager
+2018-03-29 19:48:17 - Successfully completed request
+2018-03-29 19:48:17 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:17 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:17 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:48:17 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:48:17 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:48:17 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:48:17 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:48:17 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:48:17 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Closing JPA EntityManager
+2018-03-29 19:48:17 - Successfully completed request
+2018-03-29 19:48:17 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:17 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:17 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/allPosts]
+2018-03-29 19:48:17 - Looking up handler method for path /SocialMedia/allPosts
+2018-03-29 19:48:17 - Returning handler method [public java.lang.String com.revature.post.postController.getPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2018-03-29 19:48:17 - Returning cached instance of singleton bean 'postController'
+2018-03-29 19:48:17 - Last-Modified value for [/SocialMedia/allPosts] is: -1
+2018-03-29 19:48:17 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-03-29 19:48:17 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-03-29 19:48:17 - Setting JDBC Connection [HikariProxyConnection@470839982 wrapping oracle.jdbc.driver.T4CConnection@192f1179] read-only
+2018-03-29 19:48:17 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@64a4481f]
+2018-03-29 19:48:17 - Initiating transaction commit
+2018-03-29 19:48:17 - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.revature.post.Post#6], EntityKey[com.revature.post.Post#23], EntityKey[com.revature.post.Post#7], EntityKey[com.revature.post.Post#10], EntityKey[com.revature.user.UserNew#3], EntityKey[com.revature.post.Post#11], EntityKey[com.revature.post.Post#8], EntityKey[com.revature.user.UserNew#5], EntityKey[com.revature.post.Post#9], EntityKey[com.revature.user.UserNew#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-03-29 19:48:17 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@470839982 wrapping oracle.jdbc.driver.T4CConnection@192f1179]
+2018-03-29 19:48:17 - Not closing pre-bound JPA EntityManager after transaction
+2018-03-29 19:48:17 - Written [[{"postId":23,"hash":"axgzccayzswo.png","post_text":"askdljflksadj fklasjd fklasd","title":"Post Title","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":11,"hash":"pdeqwsgqnnli.png","post_text":"Just sitting here... enjoying learning some JABASCRIP","title":"JavaScript","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":10,"hash":"bypvhitokbml.png","post_text":"These comics are fantastic","title":"Oh no","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":9,"hash":"dsbvodtswdkz.png","post_text":"I\u0027ve experienced this far too many times this week...","title":"When your project group members won\u0027t leave your apartment","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"1","liked" : "active-like"},{"postId":8,"hash":"krwtxuwexzgc.png","post_text":"You\u0027re in for it now...","title":"Play time","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":7,"hash":"vyrnieqkleah.png","post_text":"Gnome child is bae","title":"Got \u0027em","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":6,"hash":"kbiqnxyqjvbi.png","post_text":"I\u0027m so happy with my life right now","title":"Just in time","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""}]] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@6f2d108a]
+2018-03-29 19:48:17 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:48:17 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:48:17 - Closing JPA EntityManager
+2018-03-29 19:48:17 - Successfully completed request
+2018-03-29 19:48:17 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:48:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:48:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:49:16 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:16 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:49:16 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:49:16 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:49:16 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:49:16 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:49:16 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:16 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:16 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:16 - Closing JPA EntityManager
+2018-03-29 19:49:16 - Successfully completed request
+2018-03-29 19:49:16 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:16 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:16 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:49:16 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:49:16 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:49:16 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:49:16 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:49:16 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:16 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:16 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:16 - Closing JPA EntityManager
+2018-03-29 19:49:16 - Successfully completed request
+2018-03-29 19:49:16 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:16 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:16 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/allPosts]
+2018-03-29 19:49:16 - Looking up handler method for path /SocialMedia/allPosts
+2018-03-29 19:49:16 - Returning handler method [public java.lang.String com.revature.post.postController.getPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2018-03-29 19:49:16 - Returning cached instance of singleton bean 'postController'
+2018-03-29 19:49:16 - Last-Modified value for [/SocialMedia/allPosts] is: -1
+2018-03-29 19:49:16 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:16 - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-03-29 19:49:16 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-03-29 19:49:16 - Setting JDBC Connection [HikariProxyConnection@1733169903 wrapping oracle.jdbc.driver.T4CConnection@192f1179] read-only
+2018-03-29 19:49:16 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@34685bee]
+2018-03-29 19:49:16 - Initiating transaction commit
+2018-03-29 19:49:16 - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.revature.post.Post#6], EntityKey[com.revature.post.Post#23], EntityKey[com.revature.post.Post#7], EntityKey[com.revature.post.Post#10], EntityKey[com.revature.user.UserNew#3], EntityKey[com.revature.post.Post#11], EntityKey[com.revature.post.Post#8], EntityKey[com.revature.user.UserNew#5], EntityKey[com.revature.post.Post#9], EntityKey[com.revature.user.UserNew#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-03-29 19:49:16 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1733169903 wrapping oracle.jdbc.driver.T4CConnection@192f1179]
+2018-03-29 19:49:16 - Not closing pre-bound JPA EntityManager after transaction
+2018-03-29 19:49:17 - Written [[{"postId":23,"hash":"axgzccayzswo.png","post_text":"askdljflksadj fklasjd fklasd","title":"Post Title","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":11,"hash":"pdeqwsgqnnli.png","post_text":"Just sitting here... enjoying learning some JABASCRIP","title":"JavaScript","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":10,"hash":"bypvhitokbml.png","post_text":"These comics are fantastic","title":"Oh no","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":9,"hash":"dsbvodtswdkz.png","post_text":"I\u0027ve experienced this far too many times this week...","title":"When your project group members won\u0027t leave your apartment","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"1","liked" : "active-like"},{"postId":8,"hash":"krwtxuwexzgc.png","post_text":"You\u0027re in for it now...","title":"Play time","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":7,"hash":"vyrnieqkleah.png","post_text":"Gnome child is bae","title":"Got \u0027em","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":6,"hash":"kbiqnxyqjvbi.png","post_text":"I\u0027m so happy with my life right now","title":"Just in time","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""}]] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@6f2d108a]
+2018-03-29 19:49:17 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:17 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:17 - Closing JPA EntityManager
+2018-03-29 19:49:17 - Successfully completed request
+2018-03-29 19:49:17 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:49:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:49:27 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:27 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:49:27 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:49:27 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:49:27 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:49:27 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:49:27 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:27 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Closing JPA EntityManager
+2018-03-29 19:49:27 - Successfully completed request
+2018-03-29 19:49:27 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:27 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:27 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:49:27 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:49:27 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:49:27 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:49:27 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:49:27 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:27 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Closing JPA EntityManager
+2018-03-29 19:49:27 - Successfully completed request
+2018-03-29 19:49:27 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:27 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:49:27 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/allPosts]
+2018-03-29 19:49:27 - Looking up handler method for path /SocialMedia/allPosts
+2018-03-29 19:49:27 - Returning handler method [public java.lang.String com.revature.post.postController.getPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2018-03-29 19:49:27 - Returning cached instance of singleton bean 'postController'
+2018-03-29 19:49:27 - Last-Modified value for [/SocialMedia/allPosts] is: -1
+2018-03-29 19:49:27 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-03-29 19:49:27 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-03-29 19:49:27 - Setting JDBC Connection [HikariProxyConnection@153175433 wrapping oracle.jdbc.driver.T4CConnection@192f1179] read-only
+2018-03-29 19:49:27 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4384d6da]
+2018-03-29 19:49:27 - Initiating transaction commit
+2018-03-29 19:49:27 - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.revature.post.Post#6], EntityKey[com.revature.post.Post#23], EntityKey[com.revature.post.Post#7], EntityKey[com.revature.post.Post#10], EntityKey[com.revature.user.UserNew#3], EntityKey[com.revature.post.Post#11], EntityKey[com.revature.post.Post#8], EntityKey[com.revature.user.UserNew#5], EntityKey[com.revature.post.Post#9], EntityKey[com.revature.user.UserNew#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-03-29 19:49:27 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@153175433 wrapping oracle.jdbc.driver.T4CConnection@192f1179]
+2018-03-29 19:49:27 - Not closing pre-bound JPA EntityManager after transaction
+2018-03-29 19:49:27 - Written [[{"postId":23,"hash":"axgzccayzswo.png","post_text":"askdljflksadj fklasjd fklasd","title":"Post Title","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":11,"hash":"pdeqwsgqnnli.png","post_text":"Just sitting here... enjoying learning some JABASCRIP","title":"JavaScript","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":10,"hash":"bypvhitokbml.png","post_text":"These comics are fantastic","title":"Oh no","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":9,"hash":"dsbvodtswdkz.png","post_text":"I\u0027ve experienced this far too many times this week...","title":"When your project group members won\u0027t leave your apartment","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"1","liked" : "active-like"},{"postId":8,"hash":"krwtxuwexzgc.png","post_text":"You\u0027re in for it now...","title":"Play time","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":7,"hash":"vyrnieqkleah.png","post_text":"Gnome child is bae","title":"Got \u0027em","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":6,"hash":"kbiqnxyqjvbi.png","post_text":"I\u0027m so happy with my life right now","title":"Just in time","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""}]] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@6f2d108a]
+2018-03-29 19:49:27 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:49:27 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:49:27 - Closing JPA EntityManager
+2018-03-29 19:49:27 - Successfully completed request
+2018-03-29 19:49:27 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:50:14 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:50:14 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:50:14 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:50:14 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:50:14 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:50:14 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Closing JPA EntityManager
+2018-03-29 19:50:14 - Successfully completed request
+2018-03-29 19:50:14 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:50:14 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:50:14 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:50:14 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:50:14 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:50:14 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:50:14 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Closing JPA EntityManager
+2018-03-29 19:50:14 - Successfully completed request
+2018-03-29 19:50:14 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:14 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/allPosts]
+2018-03-29 19:50:14 - Looking up handler method for path /SocialMedia/allPosts
+2018-03-29 19:50:14 - Returning handler method [public java.lang.String com.revature.post.postController.getPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+2018-03-29 19:50:14 - Returning cached instance of singleton bean 'postController'
+2018-03-29 19:50:14 - Last-Modified value for [/SocialMedia/allPosts] is: -1
+2018-03-29 19:50:14 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-03-29 19:50:14 - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+2018-03-29 19:50:14 - Setting JDBC Connection [HikariProxyConnection@1130864598 wrapping oracle.jdbc.driver.T4CConnection@192f1179] read-only
+2018-03-29 19:50:14 - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@e19aff2]
+2018-03-29 19:50:14 - Initiating transaction commit
+2018-03-29 19:50:14 - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.revature.post.Post#6], EntityKey[com.revature.post.Post#23], EntityKey[com.revature.post.Post#7], EntityKey[com.revature.post.Post#10], EntityKey[com.revature.user.UserNew#3], EntityKey[com.revature.post.Post#11], EntityKey[com.revature.post.Post#8], EntityKey[com.revature.user.UserNew#5], EntityKey[com.revature.post.Post#9], EntityKey[com.revature.user.UserNew#4]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-03-29 19:50:14 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1130864598 wrapping oracle.jdbc.driver.T4CConnection@192f1179]
+2018-03-29 19:50:14 - Not closing pre-bound JPA EntityManager after transaction
+2018-03-29 19:50:14 - Written [[{"postId":23,"hash":"axgzccayzswo.png","post_text":"askdljflksadj fklasjd fklasd","title":"Post Title","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":11,"hash":"pdeqwsgqnnli.png","post_text":"Just sitting here... enjoying learning some JABASCRIP","title":"JavaScript","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":10,"hash":"bypvhitokbml.png","post_text":"These comics are fantastic","title":"Oh no","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":9,"hash":"dsbvodtswdkz.png","post_text":"I\u0027ve experienced this far too many times this week...","title":"When your project group members won\u0027t leave your apartment","user":{"user_id":4,"hash":"rtozdtlkzxcw.png","first_name":"Pooja","last_name":"Suresh","username":"ps763","email":"pooja@suresh.com","birthdate":"Mar 17, 1996 12:00:00 AM"},"post_likes":"1","liked" : "active-like"},{"postId":8,"hash":"krwtxuwexzgc.png","post_text":"You\u0027re in for it now...","title":"Play time","user":{"user_id":5,"hash":"zbhyakphshth.png","first_name":"Jim","last_name":"Jam","username":"jim","email":"jimjam@email.com","birthdate":"Jan 18, 1988 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":7,"hash":"vyrnieqkleah.png","post_text":"Gnome child is bae","title":"Got \u0027em","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""},{"postId":6,"hash":"kbiqnxyqjvbi.png","post_text":"I\u0027m so happy with my life right now","title":"Just in time","user":{"user_id":3,"hash":"slqovudijtla.png","first_name":"Sam","last_name":"Mendez","username":"joe","email":"sammymendino@gmail.com","birthdate":"May 15, 1998 12:00:00 AM"},"post_likes":"0","liked" : ""}]] as "application/json" using [org.springframework.http.converter.StringHttpMessageConverter@6f2d108a]
+2018-03-29 19:50:14 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:50:14 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:14 - Closing JPA EntityManager
+2018-03-29 19:50:14 - Successfully completed request
+2018-03-29 19:50:14 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:19 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:19 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:50:19 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:50:19 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:50:19 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:50:19 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:50:19 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:19 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:50:19 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:50:19 - Closing JPA EntityManager
+2018-03-29 19:50:19 - Successfully completed request
+2018-03-29 19:50:19 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:50:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:50:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:51:08 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:08 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:51:08 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:51:08 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:51:08 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:51:08 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:51:08 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:08 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:51:08 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:08 - Closing JPA EntityManager
+2018-03-29 19:51:08 - Successfully completed request
+2018-03-29 19:51:08 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:15 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:15 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:51:15 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:51:15 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:51:15 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:51:15 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:51:15 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:15 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:51:15 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:15 - Closing JPA EntityManager
+2018-03-29 19:51:15 - Successfully completed request
+2018-03-29 19:51:15 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:22 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:22 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:51:22 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:51:22 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:51:22 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:51:22 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:51:22 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:22 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:51:22 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:51:22 - Closing JPA EntityManager
+2018-03-29 19:51:22 - Successfully completed request
+2018-03-29 19:51:22 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:51:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:51:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:52:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:52:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:53:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:53:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:53:27 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:53:27 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:53:27 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:53:27 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:53:27 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:53:27 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:53:27 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:53:27 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:53:27 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:53:27 - Closing JPA EntityManager
+2018-03-29 19:53:27 - Successfully completed request
+2018-03-29 19:53:27 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:07 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:07 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:54:07 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:54:07 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:54:07 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:54:07 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:54:07 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:07 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:54:07 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:07 - Closing JPA EntityManager
+2018-03-29 19:54:07 - Successfully completed request
+2018-03-29 19:54:07 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:21 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:21 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:54:21 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:54:21 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:54:21 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:54:21 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:54:21 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:21 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:54:21 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:21 - Closing JPA EntityManager
+2018-03-29 19:54:21 - Successfully completed request
+2018-03-29 19:54:21 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:54:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:54:39 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:54:39 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:54:39 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:54:39 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:54:39 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:54:39 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:54:39 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:39 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:54:39 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:54:39 - Closing JPA EntityManager
+2018-03-29 19:54:39 - Successfully completed request
+2018-03-29 19:54:39 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:55:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:55:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:55:29 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:55:29 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:55:29 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:55:29 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:55:29 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:55:29 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:55:29 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:55:29 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:55:29 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:55:29 - Closing JPA EntityManager
+2018-03-29 19:55:29 - Successfully completed request
+2018-03-29 19:55:29 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:18 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:18 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:56:18 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:56:18 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:56:18 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:56:18 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:56:18 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:18 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:56:18 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:18 - Closing JPA EntityManager
+2018-03-29 19:56:18 - Successfully completed request
+2018-03-29 19:56:18 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:24 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:24 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:56:24 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:56:24 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:56:24 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:56:24 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:56:24 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:24 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:56:24 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:24 - Closing JPA EntityManager
+2018-03-29 19:56:24 - Successfully completed request
+2018-03-29 19:56:24 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:56:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:56:34 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:34 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:56:34 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:56:34 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:56:34 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:56:34 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:56:34 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:34 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:56:34 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:34 - Closing JPA EntityManager
+2018-03-29 19:56:34 - Successfully completed request
+2018-03-29 19:56:34 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:44 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:56:44 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:56:44 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:56:44 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:56:44 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:56:44 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:56:44 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:44 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:56:44 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:56:44 - Closing JPA EntityManager
+2018-03-29 19:56:44 - Successfully completed request
+2018-03-29 19:56:44 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:57:05 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:57:05 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:57:05 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:57:05 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:57:05 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:57:05 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:57:05 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:57:05 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:57:05 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:57:05 - Closing JPA EntityManager
+2018-03-29 19:57:05 - Successfully completed request
+2018-03-29 19:57:05 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:57:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:57:25 - Closing connections idle longer than 60000 MILLISECONDS
+2018-03-29 19:57:43 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5986707e
+2018-03-29 19:57:43 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/SocialMedia/session]
+2018-03-29 19:57:43 - Looking up handler method for path /SocialMedia/session
+2018-03-29 19:57:43 - Returning handler method [public void com.revature.config.SessionServlet.blah(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException]
+2018-03-29 19:57:43 - Returning cached instance of singleton bean 'sessionServlet'
+2018-03-29 19:57:43 - Last-Modified value for [/SocialMedia/session] is: -1
+2018-03-29 19:57:43 - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:57:43 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-03-29 19:57:43 - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2018-03-29 19:57:43 - Closing JPA EntityManager
+2018-03-29 19:57:43 - Successfully completed request
+2018-03-29 19:57:43 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5986707e
